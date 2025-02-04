@@ -1,0 +1,85 @@
+@import 
+url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap"); 
+* { 
+padding: 0; 
+margin: 0; 
+box-sizing: border-box; 
+font-family: "Raleway", sans-serif; 
+} 
+html { 
+font-size: 16px; 
+body { 
+background-image: url("https://static.vecteezy.com/system/resources/thumbnails/001/386/239/small/abstract-fluid-art-colors-free-vector.jpg"); 
+background-repeat: no-repeat; 
+background-attachment: fixed; 
+background-size: cover; 
+} 
+} 
+ 
+.wrapper { 
+  position: absolute; 
+  transform: translate(-50%, -50%); 
+  top: 50%; 
+  left: 50%; 
+} 
+ 
+.container { 
+  width: 70vmin; 
+  height: 70vmin; 
+  display: flex; 
+  flex-wrap: wrap; 
+  gap: 2vmin; 
+} 
+ 
+.button-option { 
+  background: #ffffff; 
+  height: 22vmin; 
+  width: 22vmin; 
+  border: none; 
+  border-radius: 8px; 
+  font-size: 12vmin; 
+  font-weight: 800; 
+  color: #730dd9; 
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); 
+} 
+ 
+#restart { 
+  font-size: 1.3em; 
+  padding: 1em; 
+  border-radius: 8px; 
+  background-color: #0a0027; 
+  color: #ffffff; 
+  border: none; 
+position: relative; 
+margin: 1.5em auto 0 auto; 
+display: block; 
+} 
+.popup { 
+background: linear-gradient(135deg, #da16c0, #ffa861); 
+height: 100%; 
+width: 100%; 
+position: absolute; 
+display: flex; 
+z-index: 2; 
+align-items: center; 
+justify-content: center; 
+flex-direction: column; 
+gap: 1em; 
+font-size: 12vmin; 
+} 
+#new-game { 
+font-size: 0.6em; 
+padding: 0.5em 1em; 
+background-color: #0a0027; 
+color: #ffffff; 
+border-radius: 0.2em; 
+border: none; 
+} 
+.popup.hide { 
+display: none; 
+#message { 
+color: #ffffff; 
+text-align: center; 
+font-size: 1em; 
+} 
+}
